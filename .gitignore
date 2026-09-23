@@ -1,0 +1,18 @@
+# ===== 真实银行流水：含公司机密，绝对禁止提交 =====
+data/raw_bank_flows/
+
+# ===== 运行产物：可由脚本重新生成，无需入库 =====
+output/
+
+# ===== Python 缓存 / 虚拟环境 =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
